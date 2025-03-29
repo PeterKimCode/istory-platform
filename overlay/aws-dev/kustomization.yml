@@ -14,7 +14,7 @@ patches:
       kind: Deployment
       name: istory-app-deploy
 images:
-  - name: dangtong76/istory
+  - name: PeterKimCode/istory
     newTag: latest
 generatorOptions:
   disableNameSuffixHash: true
