@@ -14,7 +14,8 @@ patches:
       kind: Deployment
       name: istory-app-deploy
 images:
-  - name: litpr/istory
-    newTag: latest
+  - name: istory
+    newName: litpr/istory
+    newTag: "15"
 generatorOptions:
   disableNameSuffixHash: true
